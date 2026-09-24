@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "username": "hiep123",
+    "role": "customer",
+    "salt": "685237204418d5f432bafe086ce4e463",
+    "hash": "ed613090d6104186d9a01824e540dddcb281db17d0bd20d0a41a31a125d7e98cdf291ac0360b3480f79bc05aed733134549c08dcf34e16847d382a082abaf8bb",
+    "createdAt": "2026-09-24T10:28:19.867Z"
+  }
+]

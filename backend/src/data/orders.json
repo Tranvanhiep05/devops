@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "customerName": "vũ",
+    "phone": "0909009090",
+    "address": "a",
+    "note": "a",
+    "items": [
+      {
+        "id": 2,
+        "name": "Giày sneaker",
+        "price": 850000,
+        "qty": 1
+      }
+    ],
+    "total": 850000,
+    "status": "completed",
+    "createdAt": "2026-09-18T09:18:23.074Z"
+  },
+  {
+    "id": 2,
+    "customerName": "vũ",
+    "phone": "090 6868 888",
+    "address": "a",
+    "note": "",
+    "items": [
+      {
+        "id": 3,
+        "name": "Balo laptop",
+        "price": 450000,
+        "qty": 1
+      }
+    ],
+    "total": 450000,
+    "status": "completed",
+    "createdAt": "2026-09-18T09:39:18.874Z"
+  },
+  {
+    "id": 3,
+    "username": "hiep123",
+    "customerName": "trần văn hiệp",
+    "phone": "0799362126",
+    "address": "tổ 1 giang tắc quảnh nam",
+    "note": "",
+    "items": [
+      {
+        "id": 2,
+        "name": "Giày sneaker",
+        "price": 850000,
+        "qty": 1
+      }
+    ],
+    "total": 850000,
+    "status": "pending",
+    "createdAt": "2026-09-24T10:29:27.547Z"
+  }
+]

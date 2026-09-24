@@ -1,0 +1,874 @@
+/* =========================================================
+   SHOP - GIAO DIỆN MỚI
+   ========================================================= */
+
+.shop {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+  position: relative;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 2.5rem;
+  padding: 3.5rem 4rem;
+
+  border-radius: 28px;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 85% 20%,
+      rgba(255, 255, 255, 0.25),
+      transparent 30%),
+    linear-gradient(135deg,
+      #4f46e5 0%,
+      #6366f1 45%,
+      #8b5cf6 100%);
+
+  color: white;
+
+  box-shadow:
+    0 20px 45px rgba(79, 70, 229, 0.22);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+
+  width: 300px;
+  height: 300px;
+
+  right: -80px;
+  bottom: -150px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  right: 180px;
+  top: -100px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+
+  max-width: 650px;
+}
+
+.hero h1 {
+  margin: 0 0 1rem;
+
+  font-size: 2.5rem;
+  line-height: 1.15;
+  font-weight: 800;
+
+  letter-spacing: -0.8px;
+}
+
+.hero p {
+  margin: 0;
+
+  font-size: 1.05rem;
+  line-height: 1.7;
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* =========================================================
+   TOOLBAR
+   ========================================================= */
+
+.shop-toolbar {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.2rem;
+
+  margin-bottom: 2rem;
+}
+
+/* SEARCH */
+
+.shop-toolbar input {
+  width: 100%;
+  max-width: 520px;
+
+  padding: 1rem 1.3rem;
+
+  box-sizing: border-box;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+
+  background: #ffffff;
+
+  color: #111827;
+
+  font-size: 0.98rem;
+
+  outline: none;
+
+  box-shadow:
+    0 5px 18px rgba(15, 23, 42, 0.06);
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.shop-toolbar input::placeholder {
+  color: #9ca3af;
+}
+
+.shop-toolbar input:hover {
+  border-color: #c7d2fe;
+}
+
+.shop-toolbar input:focus {
+  border-color: #6366f1;
+
+  box-shadow:
+    0 0 0 4px rgba(99, 102, 241, 0.1),
+    0 8px 20px rgba(15, 23, 42, 0.06);
+}
+
+/* =========================================================
+   CATEGORY
+   ========================================================= */
+
+.category-chips {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.7rem;
+}
+
+.chip {
+  padding: 0.65rem 1.15rem;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+
+  background: #ffffff;
+
+  color: #4b5563;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition:
+    all 0.2s ease;
+
+  box-shadow:
+    0 3px 10px rgba(15, 23, 42, 0.04);
+}
+
+.chip:hover {
+  color: #4f46e5;
+
+  border-color: #c7d2fe;
+
+  background: #eef2ff;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 6px 15px rgba(79, 70, 229, 0.1);
+}
+
+.chip.active {
+  color: white;
+
+  background: linear-gradient(135deg,
+      #4f46e5,
+      #7c3aed);
+
+  border-color: transparent;
+
+  font-weight: 700;
+
+  box-shadow:
+    0 7px 18px rgba(79, 70, 229, 0.25);
+
+  transform: translateY(-1px);
+}
+
+/* =========================================================
+   PRODUCT GRID
+   ========================================================= */
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+/* =========================================================
+   PRODUCT CARD
+   ========================================================= */
+
+/*
+   Phần này áp dụng cho card nếu ProductCard sử dụng
+   class .product-card
+*/
+
+.product-card {
+  overflow: hidden;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 5px 18px rgba(15, 23, 42, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-7px);
+
+  border-color: #c7d2fe;
+
+  box-shadow:
+    0 18px 35px rgba(15, 23, 42, 0.12);
+}
+
+/* ảnh */
+
+.product-card img {
+  width: 100%;
+
+  aspect-ratio: 1 / 0.82;
+
+  object-fit: cover;
+
+  display: block;
+
+  transition:
+    transform 0.35s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.04);
+}
+
+/* nội dung card */
+
+.product-card-content {
+  padding: 1.15rem;
+}
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.product-card button,
+.product-grid button {
+  border: none;
+
+  border-radius: 12px;
+
+  background: linear-gradient(135deg,
+      #4f46e5,
+      #7c3aed);
+
+  color: white;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.product-card button:hover,
+.product-grid button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 8px 18px rgba(79, 70, 229, 0.25);
+}
+
+.product-card button:active,
+.product-grid button:active {
+  transform: translateY(0);
+}
+
+/* =========================================================
+   STATUS
+   ========================================================= */
+
+.shop-status {
+  text-align: center;
+
+  margin-top: 3rem;
+
+  color: #6b7280;
+
+  font-size: 0.95rem;
+}
+
+.shop-status.error {
+  color: #dc2626;
+
+  padding: 1rem;
+
+  border-radius: 12px;
+
+  background: #fef2f2;
+}
+
+/* =========================================================
+   RESPONSIVE - TABLET
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+  .product-grid {
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+  }
+
+  .hero {
+    padding: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE - MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .shop {
+    padding: 1.25rem 1rem 3rem;
+  }
+
+  .hero {
+    min-height: auto;
+
+    padding: 2.5rem 1.5rem;
+
+    border-radius: 22px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  .shop-toolbar input {
+    max-width: 100%;
+  }
+
+  .category-chips {
+    gap: 0.5rem;
+  }
+
+  .chip {
+    padding: 0.55rem 0.9rem;
+
+    font-size: 0.82rem;
+  }
+
+  .product-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 1rem;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE - SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  .shop {
+    padding: 1rem 0.8rem 2.5rem;
+  }
+
+  .hero {
+    padding: 2rem 1.2rem;
+
+    border-radius: 18px;
+  }
+
+  .hero h1 {
+    font-size: 1.55rem;
+  }
+
+  .hero p {
+    font-size: 0.88rem;
+  }
+
+  .product-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 0.75rem;
+  }
+}
+/* ================================
+   BANNER RIÊNG
+================================ */
+
+.hero-banner {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Phần chữ riêng bên dưới banner */
+.hero {
+  margin-bottom: 28px;
+  border-radius: 20px;
+  padding: 28px 32px;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-primary-dark)
+  );
+}
+
+.hero-text {
+  max-width: 520px;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 1.9rem;
+}
+
+.hero p {
+  margin: 0;
+  color: #fff;
+  opacity: 0.92;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 220px;
+    margin-bottom: 16px;
+  }
+
+  .hero {
+    padding: 22px 24px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-banner {
+    height: 160px;
+  }
+
+  .hero {
+    padding: 18px;
+  }
+
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero p {
+    font-size: 0.88rem;
+  }
+}
+/* ================================
+   PHẦN GIỚI THIỆU
+================================ */
+
+.about-section {
+  width: min(1200px, calc(100% - 40px));
+  margin: 65px auto 70px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+
+  align-items: center;
+}
+
+/* ẢNH */
+.about-image {
+  width: 100%;
+  height: 590px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  object-fit: contain;
+  object-position: center;
+}
+
+/* NỘI DUNG */
+.about-content {
+  padding: 5px 0;
+}
+
+.about-small-title {
+  display: block;
+
+  font-size: 17px;
+  font-weight: 400;
+
+  color: #555;
+
+  margin-bottom: 4px;
+}
+
+.about-content h2 {
+  margin: 0 0 20px;
+
+  font-size: 31px;
+  line-height: 1.2;
+
+  color: #30329f;
+  font-weight: 700;
+}
+
+.about-content p {
+  margin: 0 0 20px;
+
+  font-size: 18px;
+  line-height: 1.75;
+
+  color: #30329f;
+}
+
+.about-content .about-highlight {
+  margin-bottom: 12px;
+}
+
+/* NÚT */
+.about-button {
+  display: inline-block;
+
+  margin-top: 8px;
+  padding: 13px 27px;
+
+  background: #ffc400;
+  color: white;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+
+  transition: 0.25s;
+}
+
+.about-button:hover {
+  background: #e5a900;
+  transform: translateY(-2px);
+}
+
+
+/* ================================
+   RESPONSIVE TABLET
+================================ */
+
+@media (max-width: 900px) {
+
+  .about-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+    margin-top: 45px;
+  }
+
+  .about-image {
+    height: 500px;
+  }
+
+  .about-content h2 {
+    font-size: 28px;
+  }
+
+  .about-content p {
+    font-size: 17px;
+  }
+}
+
+
+/* ================================
+   RESPONSIVE MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+  .about-section {
+    width: calc(100% - 30px);
+    margin: 35px auto 50px;
+
+    gap: 25px;
+  }
+
+  .about-image {
+    height: 400px;
+  }
+
+  .about-small-title {
+    font-size: 15px;
+  }
+
+  .about-content h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+
+  .about-button {
+    padding: 11px 23px;
+  }
+}
+/* ========================================
+   VÌ SAO CHỌN TOORA
+======================================== */
+
+.why-toora {
+  width: min(1200px, calc(100% - 40px));
+  margin: 80px auto 80px;
+
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 45px;
+
+  align-items: center;
+}
+
+/* ẢNH BÊN TRÁI */
+
+.why-toora-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.why-toora-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  object-fit: contain;
+}
+
+/* NỘI DUNG BÊN PHẢI */
+
+.why-toora-content h2 {
+  margin: 0 0 25px;
+
+  text-align: center;
+
+  color: #30329f;
+
+  font-size: 32px;
+  line-height: 1.3;
+
+  font-weight: 700;
+}
+
+/* 4 Ô */
+
+.why-toora-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+}
+
+.why-item {
+  min-height: 155px;
+
+  border: 1px solid #d9dce8;
+  border-radius: 7px;
+
+  padding: 20px 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  background: #fff;
+
+  transition: 0.25s;
+}
+
+.why-item:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* ICON */
+
+.why-icon {
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 8px;
+
+  color: #ffb900;
+
+  font-size: 32px;
+}
+
+/* TIÊU ĐỀ */
+
+.why-item h3 {
+  margin: 0 0 8px;
+
+  color: #30329f;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* MÔ TẢ */
+
+.why-item p {
+  margin: 0;
+
+  color: #30329f;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 900px) {
+
+  .why-toora {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+
+    margin-top: 60px;
+  }
+
+  .why-toora-image {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .why-toora-content h2 {
+    font-size: 28px;
+  }
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 600px) {
+
+  .why-toora {
+    width: calc(100% - 30px);
+
+    margin: 45px auto 55px;
+
+    gap: 25px;
+  }
+
+  .why-toora-content h2 {
+    font-size: 24px;
+
+    margin-bottom: 20px;
+  }
+
+  .why-toora-grid {
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+  }
+
+  .why-item {
+    min-height: 135px;
+  }
+
+  .why-item h3 {
+    font-size: 17px;
+  }
+
+  .why-item p {
+    font-size: 14px;
+  }
+}

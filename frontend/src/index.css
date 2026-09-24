@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light;
+  font-family: "Be Vietnam Pro", system-ui, "Segoe UI", Roboto, sans-serif;
+
+  --color-primary: #e0402b;
+  --color-primary-dark: #c22f1d;
+  --color-primary-light: #fdece8;
+  --color-text: #222;
+  --color-text-muted: #666;
+  --color-border: #e5e5e5;
+  --color-bg: #f7f7f8;
+  --color-surface: #fff;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --container-width: 1160px;
+  --navbar-h: 64px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 0.95rem;
+}

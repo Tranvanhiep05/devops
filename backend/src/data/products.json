@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Áo thun basic",
+    "price": 150000,
+    "description": "Đồng phục công sở",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-nha-hang-khach-san-15-13705_576x576.jpg",
+    "stock": 50,
+    "category": "Thời trang"
+  },
+  {
+    "id": 2,
+    "name": "Đồng Phục spa",
+    "price": 850000,
+    "description": "đồng Phục spa",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-spa-15-12936_576x576.jpg",
+    "stock": 18,
+    "category": "Đồ spa"
+  },
+  {
+    "id": 3,
+    "name": "Đồng phục spa",
+    "price": 250000,
+    "description": "Đồng phục spa",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-spa-17-15800_576x576.jpg",
+    "stock": 30,
+    "category": "Đồ spa"
+  },
+  {
+    "id": 4,
+    "name": "Áo thun",
+    "price": 222000,
+    "description": "Áo thun đẹp ",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/aothun.jpg",
+    "stock": 11,
+    "category": "Áo thun"
+  },
+  {
+    "id": 5,
+    "name": "Quần Tây",
+    "price": 500000,
+    "description": "Quần Tây nam",
+    "image": "http://127.0.0.1:5501/toora/image/dosanpham/quan-tay-nam-094950_576x576.jpg",
+    "stock": 22,
+    "category": "Đồ tây"
+  },
+  {
+    "id": 6,
+    "name": "Áo vest nam",
+    "price": 400000,
+    "description": "Áo vest nam",
+    "image": "http://127.0.0.1:5501/toora/image/dosanpham/untitled-19268_576x576.jpg",
+    "stock": 22,
+    "category": "Đồ tây"
+  },
+  {
+    "id": 7,
+    "name": "Đồng phục áo vest nữ",
+    "price": 300000,
+    "description": "áo vest nữ",
+    "image": "http://127.0.0.1:5501/toora/image/dosanpham/vest-nu-049424_576x576.jpg",
+    "stock": 44,
+    "category": "Đồ tây"
+  },
+  {
+    "id": 8,
+    "name": "Áo dài",
+    "price": 600000,
+    "description": "áo dài",
+    "image": "http://127.0.0.1:5501/toora/image/letan/ng-phuc-le-tan-018908_576x576.jpg",
+    "stock": 33,
+    "category": "Áo dài"
+  },
+  {
+    "id": 9,
+    "name": "áo dài",
+    "price": 800000,
+    "description": "áo dài Việt Nam",
+    "image": "http://127.0.0.1:5501/toora/image/letan/ng-phuc-le-tan-023943_576x576.jpg",
+    "stock": 55,
+    "category": "Áo dài"
+  },
+  {
+    "id": 10,
+    "name": "Áo thun",
+    "price": 444444,
+    "description": "áo thun",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/ng-phuc-ao-thun-12-12932_576x576.jpg",
+    "stock": 33,
+    "category": "Áo thun"
+  },
+  {
+    "id": 11,
+    "name": "Đồng phục công sở",
+    "price": 333333,
+    "description": "Đồng phục công sở",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-nha-hang-khach-san-27-16015_576x576.jpg",
+    "stock": 33,
+    "category": "Đồ tây"
+  },
+  {
+    "id": 12,
+    "name": "Đồng phục spa",
+    "price": 234567,
+    "description": "đồ spa",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-spa-18-18741_576x576.jpg",
+    "stock": 99,
+    "category": "Đồ spa"
+  },
+  {
+    "id": 13,
+    "name": "áo thun",
+    "price": 333333,
+    "description": "áo thun",
+    "image": "http://127.0.0.1:5501/toora/image/sanpham/ng-phuc-ao-thun-12-12932_576x576.jpg",
+    "stock": 43,
+    "category": "Áo thun"
+  },
+  {
+    "id": 14,
+    "name": "Đồng phục bellaman",
+    "price": 399999,
+    "description": "Đồng phục bellaman",
+    "image": "http://127.0.0.1:5501/toora/image/bellaman/ng-phuc-bell-man-047493_576x576.jpg",
+    "stock": 44,
+    "category": "Thời trang"
+  },
+  {
+    "id": 15,
+    "name": "Đồng phục bellman",
+    "price": 999999,
+    "description": "Đồng phục bellman",
+    "image": "http://127.0.0.1:5501/toora/image/bellaman/ng-phuc-bell-man-061628_576x576.jpg",
+    "stock": 44,
+    "category": "Thời trang"
+  }
+]
