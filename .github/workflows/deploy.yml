@@ -37,7 +37,7 @@ jobs:
           context: ./frontend
           push: true
           build-args: |
-            VITE_API_URL=http://localhost:5000
+            VITE_API_URL=https://devops-1-7dtg.onrender.com
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/shop-frontend:latest
             ${{ secrets.DOCKER_USERNAME }}/shop-frontend:${{ github.sha }}
