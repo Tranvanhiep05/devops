@@ -4,7 +4,7 @@
     "name": "Áo thun basic",
     "price": 150000,
     "description": "Đồng phục công sở",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-nha-hang-khach-san-15-13705_576x576.jpg",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR0f4BrfGTkGc0JTDN3ILvnGQOIDDF3yG7izR97e6ugWoEGcwDI7pvghWszm7qnS0ZPslDtmKQLKCV6HrJmM-7dJ6sIbSYgdziWYLWDGVXN8VaGehux2CIhCm2Ij3juGNQeaGGMzbg&usqp=CAc",
     "stock": 50,
     "category": "Thời trang"
   },
@@ -13,7 +13,7 @@
     "name": "Đồng Phục spa",
     "price": 850000,
     "description": "đồng Phục spa",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-spa-15-12936_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpHJqCQClKd2FiFODGTJxaZxnzRC7-cjiIey1lsUdGkg&s=10",
     "stock": 18,
     "category": "Đồ spa"
   },
@@ -22,7 +22,7 @@
     "name": "Đồng phục spa",
     "price": 250000,
     "description": "Đồng phục spa",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-spa-17-15800_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHIdroVr3znrio5azPyCGohK9s2GhcT6DWw2e0EBx95Q&s=10",
     "stock": 30,
     "category": "Đồ spa"
   },
@@ -31,7 +31,7 @@
     "name": "Áo thun",
     "price": 222000,
     "description": "Áo thun đẹp ",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/aothun.jpg",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSiOIwqxhB6uHCxnAXy3I3fLT-vNShE-tudn6O3EMxeXdtnN37HmdMMG-bLgACj1nJO0qEHdBxlwZL_35f5lQ44CjtjC4h9vkXP5GZEo7DX4Gf5S0T6_CYqfTmkDYIRYkNqiLxDcWU&usqp=CAc",
     "stock": 11,
     "category": "Áo thun"
   },
@@ -40,7 +40,7 @@
     "name": "Quần Tây",
     "price": 500000,
     "description": "Quần Tây nam",
-    "image": "http://127.0.0.1:5501/toora/image/dosanpham/quan-tay-nam-094950_576x576.jpg",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQYR8K9KNnTAtIIosGwFfsRRy9649sWgw5sUZa8okywUYjEbvLe6TC5Ep9AeOgZMMSG6r9aYZ8n367yepQFEzm1dCq3_6sm2bJWX2aRXiwnc8pwfE3nec0U&usqp=CAc",
     "stock": 22,
     "category": "Đồ tây"
   },
@@ -49,7 +49,7 @@
     "name": "Áo vest nam",
     "price": 400000,
     "description": "Áo vest nam",
-    "image": "http://127.0.0.1:5501/toora/image/dosanpham/untitled-19268_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTU0R4wx2xiNUpBaABhF7gAz3MOvvloiUQDe8slowVaRVvV-rHfwH3RECRA8pshKCoOenypAOahhNivwAvbtH9j-4gCEzeQtuqzgIpNipz_zjYLyLNh6FOs&usqp=CAc",
     "stock": 22,
     "category": "Đồ tây"
   },
@@ -58,7 +58,7 @@
     "name": "Đồng phục áo vest nữ",
     "price": 300000,
     "description": "áo vest nữ",
-    "image": "http://127.0.0.1:5501/toora/image/dosanpham/vest-nu-049424_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9w0nZ7iqeMz0iShKPQjrGaraP45Odb6Y7JMXBhVTHw&s=10",
     "stock": 44,
     "category": "Đồ tây"
   },
@@ -67,7 +67,7 @@
     "name": "Áo dài",
     "price": 600000,
     "description": "áo dài",
-    "image": "http://127.0.0.1:5501/toora/image/letan/ng-phuc-le-tan-018908_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KKQmHc8_4MXoAKirt65GRNBtf3STEZyw772Zu5qnXA&s=10",
     "stock": 33,
     "category": "Áo dài"
   },
@@ -76,7 +76,7 @@
     "name": "áo dài",
     "price": 800000,
     "description": "áo dài Việt Nam",
-    "image": "http://127.0.0.1:5501/toora/image/letan/ng-phuc-le-tan-023943_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfnltLQA-W4fVIfldtcwqRTsQqyv54fpU2jvBnsQrr4A&s=10",
     "stock": 55,
     "category": "Áo dài"
   },
@@ -85,7 +85,7 @@
     "name": "Áo thun",
     "price": 444444,
     "description": "áo thun",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/ng-phuc-ao-thun-12-12932_576x576.jpg",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQnp0X26oobj34lyyDJiMfdJtWE0A0QMKJ_0fbU54wg3hUDbbk4xGnb_voeprDx5oE0xL7zkS_X3eb7GIm3PF9bSLxLJj1nTHlG4B9JwoXcaWR7d37pO0cmkOnO2FEsbQHVVfqpzGY&usqp=CAc",
     "stock": 33,
     "category": "Áo thun"
   },
@@ -94,7 +94,7 @@
     "name": "Đồng phục công sở",
     "price": 333333,
     "description": "Đồng phục công sở",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-nha-hang-khach-san-27-16015_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSieOW9TxjC4LqiFfx1628TtIbHvYud3BRMn4U28uK38w&s=10",
     "stock": 33,
     "category": "Đồ tây"
   },
@@ -103,7 +103,7 @@
     "name": "Đồng phục spa",
     "price": 234567,
     "description": "đồ spa",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/dong-phuc-spa-18-18741_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIqdHko-vQHPGhuhkRC7Gt-XLHAXIanA4soWSeIUNVrg&s=10",
     "stock": 99,
     "category": "Đồ spa"
   },
@@ -112,7 +112,7 @@
     "name": "áo thun",
     "price": 333333,
     "description": "áo thun",
-    "image": "http://127.0.0.1:5501/toora/image/sanpham/ng-phuc-ao-thun-12-12932_576x576.jpg",
+    "image": "data:image/jpeg;base64,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",
     "stock": 43,
     "category": "Áo thun"
   },
@@ -121,7 +121,7 @@
     "name": "Đồng phục bellaman",
     "price": 399999,
     "description": "Đồng phục bellaman",
-    "image": "http://127.0.0.1:5501/toora/image/bellaman/ng-phuc-bell-man-047493_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCBG93DA35OV-Z5n4ArZOj9j0Dca579bQNnyWuix1D_Q&s=10",
     "stock": 44,
     "category": "Thời trang"
   },
@@ -130,7 +130,7 @@
     "name": "Đồng phục bellman",
     "price": 999999,
     "description": "Đồng phục bellman",
-    "image": "http://127.0.0.1:5501/toora/image/bellaman/ng-phuc-bell-man-061628_576x576.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4YOodsQUjPRkiOUHIxH6GOU190DApKfIZ0x-0Pm5qw&s=10",
     "stock": 44,
     "category": "Thời trang"
   }
